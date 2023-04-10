@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="319px" height="165px" viewBox="0 0 319 165" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 2</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Slide-1" transform="translate(-39.000000, -245.000000)">
+            <g id="Group-2" transform="translate(39.344685, 245.955151)">
+                <path d="M0,163.544849 C7.10354307,121.879711 21.8219813,99.5463775 44.1553146,96.5448493 C77.6553146,92.042557 103.617796,0 144.636555,0 C185.655315,0 224.092686,102.544849 256.874,102.544849 C278.72821,102.544849 299.181754,122.878183 318.234634,163.544849 L0,163.544849 Z" id="Path-19" fill-opacity="0.187827797" fill="#0A84FF"></path>
+                <text id="3.6-m" font-family="SFCompact-Thin, SF Compact" font-size="7" font-weight="300" fill="#000000">
+                    <tspan x="150.690837" y="29.0448493">3.6 m</tspan>
+                </text>
+                <text id="1.9-m" transform="translate(41.655315, 105.544849) rotate(-90.000000) translate(-41.655315, -105.544849) " font-family="SFCompact-Thin, SF Compact" font-size="7" font-weight="300" fill="#000000">
+                    <tspan x="33.1232101" y="108.044849">1.9 m</tspan>
+                </text>
+                <line x1="60.1553146" y1="26.5448493" x2="60.1553146" y2="41.5448493" id="Line-5" stroke="#F47FEC" stroke-linecap="square"></line>
+                <line x1="250.155315" y1="26.5448493" x2="250.155315" y2="41.5448493" id="Line-5" stroke="#F47FEC" stroke-linecap="square"></line>
+                <line x1="37.1553146" y1="163.544849" x2="273.155315" y2="163.544849" id="Line" stroke="#000000" stroke-linecap="square"></line>
+                <rect id="Rectangle" stroke="#000000" fill="#FFFFFF" x="61.1553146" y="48.5448493" width="189" height="115"></rect>
+                <line x1="50.1553146" y1="50.5448493" x2="50.1553146" y2="154.544849" id="Line-2" stroke="#0A84FF" stroke-linecap="square"></line>
+                <line x1="44.1553146" y1="50.5448493" x2="57.1553146" y2="50.5448493" id="Line-3" stroke="#0A84FF" stroke-linecap="square"></line>
+                <line x1="44.1553146" y1="154.544849" x2="57.1553146" y2="154.544849" id="Line-3" stroke="#0A84FF" stroke-linecap="square"></line>
+                <line x1="60.1553146" y1="34.5448493" x2="250.155315" y2="34.5448493" id="Line-4" stroke="#F47FEC" stroke-linecap="square"></line>
+                <g id="Group" transform="translate(177.655315, 74.044849)">
+                    <rect id="Rectangle" stroke="#000000" fill="#FFFFFF" x="0.5" y="0.5" width="44" height="56"></rect>
+                    <polygon id="Path-16" fill="#A6DBE6" points="3.18137673 3.4977077 3.18137673 35.787487 17.5429259 40.693585 34.2683125 31.0144801 41.1298669 27.8869876 41.1298669 3.4977077"></polygon>
+                    <path d="M3.18137673,35.2796129 C9.88839566,36.7716233 14.472392,36.4891041 16.9333658,34.4320554 C20.6248265,31.3464824 28.8070769,25.9866602 41.1298669,26.362474 C41.1064994,30.3622786 41.1064994,33.0521391 41.1298669,34.4320554 L41.1298669,53.2143087 L3.57247601,53.2143087 L3.18137673,35.2796129 Z" id="Path-15" stroke="#000000" fill="#67C16C"></path>
+                    <rect id="Rectangle" stroke="#000000" x="3.23684211" y="3.5" width="38" height="50"></rect>
+                    <circle id="Oval" stroke="#000000" fill="#FFCE1E" cx="12.5" cy="12.5" r="4"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
