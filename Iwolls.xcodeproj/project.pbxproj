@@ -11,6 +11,8 @@
 		322D7D1229E3FBD8008F96EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322D7D1129E3FBD8008F96EB /* ContentView.swift */; };
 		322D7D1429E3FBD8008F96EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 322D7D1329E3FBD8008F96EB /* Assets.xcassets */; };
 		322D7D1729E3FBD8008F96EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 322D7D1629E3FBD8008F96EB /* Preview Assets.xcassets */; };
+		32C0377D29E68D02004E1351 /* OnBoarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C0377C29E68D02004E1351 /* OnBoarding.swift */; };
+		32C0377F29E68DE4004E1351 /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C0377E29E68DE4004E1351 /* OnBoardingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		322D7D1129E3FBD8008F96EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		322D7D1329E3FBD8008F96EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		322D7D1629E3FBD8008F96EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		32C0377C29E68D02004E1351 /* OnBoarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoarding.swift; sourceTree = "<group>"; };
+		32C0377E29E68DE4004E1351 /* OnBoardingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				322D7D0F29E3FBD8008F96EB /* IwollsApp.swift */,
+				32C0377C29E68D02004E1351 /* OnBoarding.swift */,
 				322D7D1129E3FBD8008F96EB /* ContentView.swift */,
+				32C0377E29E68DE4004E1351 /* OnBoardingView.swift */,
 				322D7D1329E3FBD8008F96EB /* Assets.xcassets */,
 				322D7D1529E3FBD8008F96EB /* Preview Content */,
 			);
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				322D7D1229E3FBD8008F96EB /* ContentView.swift in Sources */,
+				32C0377F29E68DE4004E1351 /* OnBoardingView.swift in Sources */,
+				32C0377D29E68D02004E1351 /* OnBoarding.swift in Sources */,
 				322D7D1029E3FBD8008F96EB /* IwollsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
