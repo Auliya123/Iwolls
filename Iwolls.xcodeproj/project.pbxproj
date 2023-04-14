@@ -70,7 +70,6 @@
 		322D7D0E29E3FBD8008F96EB /* Iwolls */ = {
 			isa = PBXGroup;
 			children = (
-				32C0379C29E89CBC004E1351 /* Info.plist */,
 				32C0378429E7DAD2004E1351 /* ARComponent */,
 				322D7D0F29E3FBD8008F96EB /* IwollsApp.swift */,
 				32C0379F29E8A024004E1351 /* AreaView.swift */,
@@ -79,6 +78,7 @@
 				322D7D1129E3FBD8008F96EB /* ContentView.swift */,
 				32C0377E29E68DE4004E1351 /* OnBoardingView.swift */,
 				322D7D1329E3FBD8008F96EB /* Assets.xcassets */,
+				32C0379C29E89CBC004E1351 /* Info.plist */,
 				322D7D1529E3FBD8008F96EB /* Preview Content */,
 				32C0378029E6B6B9004E1351 /* ResultView.swift */,
 			);
