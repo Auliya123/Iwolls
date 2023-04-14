@@ -15,27 +15,29 @@ struct OnBoardingView: View {
     @ObservedObject var onBoardingViewModel: OnBoardingViewModel
     
     var body: some View {
-        TabView{
-            ForEach(onBoardingViewModel.onBoardings.prefix(3)){ onBoarding in
-                ExtractedView(onBoarding: onBoarding)
-            }
-            
-            VStack(spacing: 30){
-                ExtractedView(onBoarding: onBoardingViewModel.onBoardings[3])
+        NavigationStack{
+            TabView{
+                ForEach(onBoardingViewModel.onBoardings.prefix(3)){ onBoarding in
+                    ExtractedView(onBoarding: onBoarding)
+                }
                 
-                Button(action: {}, label: {
-                    Text("Get Started")
-                        .font(.body)
-                        .fontWeight(.semibold)
-                        .padding(.horizontal, 50.0)
-                        .padding(.vertical, 6)
-                })
-                .buttonStyle(.borderedProminent)
+                VStack(spacing: 30){
+                    ExtractedView(onBoarding: onBoardingViewModel.onBoardings[3])
+                    NavigationLink(destination: MeasureView(isOpening: false)){
+                        Text("Get Started")
+                            .font(.body)
+                            .fontWeight(.semibold)
+                            .padding(.horizontal, 50.0)
+                            .padding(.vertical, 6)
+                    }.buttonStyle(.borderedProminent)
+                    
+                }
             }
+            .tabViewStyle(.page)
+            .tabViewStyle(PageTabViewStyle())
+            .onAppear{setupAppearance()}
+            
         }
-        .tabViewStyle(.page)
-        .tabViewStyle(PageTabViewStyle())
-        .onAppear{setupAppearance()}
         
     }
     func setupAppearance(){

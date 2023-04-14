@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct IwollsApp: App {
+    static let onBoardingViewModel = OnBoardingViewModel()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            OnBoardingView(onBoardingViewModel: IwollsApp.onBoardingViewModel)
         }
     }
 }

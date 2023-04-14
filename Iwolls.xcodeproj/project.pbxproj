@@ -13,6 +13,13 @@
 		322D7D1729E3FBD8008F96EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 322D7D1629E3FBD8008F96EB /* Preview Assets.xcassets */; };
 		32C0377D29E68D02004E1351 /* OnBoarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C0377C29E68D02004E1351 /* OnBoarding.swift */; };
 		32C0377F29E68DE4004E1351 /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C0377E29E68DE4004E1351 /* OnBoardingView.swift */; };
+		32C0378129E6B6B9004E1351 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C0378029E6B6B9004E1351 /* ResultView.swift */; };
+		32C0378829E7DB4E004E1351 /* LineCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C0378729E7DB4E004E1351 /* LineCode.swift */; };
+		32C0378A29E7DB54004E1351 /* Placement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C0378929E7DB54004E1351 /* Placement.swift */; };
+		32C0379229E7F589004E1351 /* ARViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C0379129E7F589004E1351 /* ARViewRepresentable.swift */; };
+		32C0379629E7F5AA004E1351 /* ARDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C0379529E7F5AA004E1351 /* ARDelegate.swift */; };
+		32C0379829E7FDF7004E1351 /* MeasureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C0379729E7FDF7004E1351 /* MeasureView.swift */; };
+		32C037A029E8A024004E1351 /* AreaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C0379F29E8A024004E1351 /* AreaView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +30,14 @@
 		322D7D1629E3FBD8008F96EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		32C0377C29E68D02004E1351 /* OnBoarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoarding.swift; sourceTree = "<group>"; };
 		32C0377E29E68DE4004E1351 /* OnBoardingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
+		32C0378029E6B6B9004E1351 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		32C0378729E7DB4E004E1351 /* LineCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LineCode.swift; path = "../../../../ARDelegateTest 2/LineCode.swift"; sourceTree = "<group>"; };
+		32C0378929E7DB54004E1351 /* Placement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Placement.swift; path = "../../../../ARDelegateTest 2/Placement.swift"; sourceTree = "<group>"; };
+		32C0379129E7F589004E1351 /* ARViewRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ARViewRepresentable.swift; path = ../../../../../Downloads/ARDelegateTest/ARDelegateTest/ARViewRepresentable.swift; sourceTree = "<group>"; };
+		32C0379529E7F5AA004E1351 /* ARDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ARDelegate.swift; path = ../../../../../Downloads/ARDelegateTest/ARDelegateTest/ARDelegate.swift; sourceTree = "<group>"; };
+		32C0379729E7FDF7004E1351 /* MeasureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasureView.swift; sourceTree = "<group>"; };
+		32C0379C29E89CBC004E1351 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../../../apple academy/MC1/Iwolls/Iwolls/Info.plist"; sourceTree = "<group>"; };
+		32C0379F29E8A024004E1351 /* AreaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,12 +70,17 @@
 		322D7D0E29E3FBD8008F96EB /* Iwolls */ = {
 			isa = PBXGroup;
 			children = (
+				32C0379C29E89CBC004E1351 /* Info.plist */,
+				32C0378429E7DAD2004E1351 /* ARComponent */,
 				322D7D0F29E3FBD8008F96EB /* IwollsApp.swift */,
+				32C0379F29E8A024004E1351 /* AreaView.swift */,
+				32C0379729E7FDF7004E1351 /* MeasureView.swift */,
 				32C0377C29E68D02004E1351 /* OnBoarding.swift */,
 				322D7D1129E3FBD8008F96EB /* ContentView.swift */,
 				32C0377E29E68DE4004E1351 /* OnBoardingView.swift */,
 				322D7D1329E3FBD8008F96EB /* Assets.xcassets */,
 				322D7D1529E3FBD8008F96EB /* Preview Content */,
+				32C0378029E6B6B9004E1351 /* ResultView.swift */,
 			);
 			path = Iwolls;
 			sourceTree = "<group>";
@@ -71,6 +91,17 @@
 				322D7D1629E3FBD8008F96EB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		32C0378429E7DAD2004E1351 /* ARComponent */ = {
+			isa = PBXGroup;
+			children = (
+				32C0378929E7DB54004E1351 /* Placement.swift */,
+				32C0379129E7F589004E1351 /* ARViewRepresentable.swift */,
+				32C0378729E7DB4E004E1351 /* LineCode.swift */,
+				32C0379529E7F5AA004E1351 /* ARDelegate.swift */,
+			);
+			path = ARComponent;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,9 +175,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				322D7D1229E3FBD8008F96EB /* ContentView.swift in Sources */,
+				32C0379229E7F589004E1351 /* ARViewRepresentable.swift in Sources */,
 				32C0377F29E68DE4004E1351 /* OnBoardingView.swift in Sources */,
+				32C037A029E8A024004E1351 /* AreaView.swift in Sources */,
+				32C0378129E6B6B9004E1351 /* ResultView.swift in Sources */,
+				32C0378A29E7DB54004E1351 /* Placement.swift in Sources */,
+				32C0378829E7DB4E004E1351 /* LineCode.swift in Sources */,
 				32C0377D29E68D02004E1351 /* OnBoarding.swift in Sources */,
 				322D7D1029E3FBD8008F96EB /* IwollsApp.swift in Sources */,
+				32C0379829E7FDF7004E1351 /* MeasureView.swift in Sources */,
+				32C0379629E7F5AA004E1351 /* ARDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +316,8 @@
 				DEVELOPMENT_TEAM = NJYYRNFLHT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Iwolls/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -307,6 +347,8 @@
 				DEVELOPMENT_TEAM = NJYYRNFLHT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Iwolls/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
