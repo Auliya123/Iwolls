@@ -6,12 +6,39 @@
 //
 
 import SwiftUI
+import Foundation
 
 struct AreaView: View {
     @State var length : Double = 0
     @State var width : Double = 0
-    @State var wallArea : Double = 0
     var isOpening : Bool = false
+    
+    
+//    var area1 : Double? = 0
+//    var area2 : Double? = 0
+    
+//    public var wallArea: Double {
+//        get{
+//            return self.area1 ?? 0
+//
+//        }
+//        set{
+//            if(!isOpening){
+//                self.area1 = length * width
+//            }
+//        }
+//    }
+//
+//    public var openingArea: Double {
+//        get{
+//            return self.area2 ?? 0
+//        }
+//        set{
+//            if(isOpening){
+//                self.area2 = length * width
+//            }
+//        }
+//    }
     
     var body: some View {
         VStack(spacing: 15.0){
