@@ -36,7 +36,6 @@
 		32C0377E29E68DE4004E1351 /* OnBoardingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
 		32C0378029E6B6B9004E1351 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
 		32C0379729E7FDF7004E1351 /* MeasureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasureView.swift; sourceTree = "<group>"; };
-		32C0379C29E89CBC004E1351 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../../../apple academy/MC1/Iwolls/Iwolls/Info.plist"; sourceTree = "<group>"; };
 		32C0379F29E8A024004E1351 /* AreaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,7 +77,6 @@
 				322D7D1129E3FBD8008F96EB /* ContentView.swift */,
 				32C0377E29E68DE4004E1351 /* OnBoardingView.swift */,
 				322D7D1329E3FBD8008F96EB /* Assets.xcassets */,
-				32C0379C29E89CBC004E1351 /* Info.plist */,
 				322D7D1529E3FBD8008F96EB /* Preview Content */,
 				32C0378029E6B6B9004E1351 /* ResultView.swift */,
 			);
